@@ -1,6 +1,52 @@
 @import "tailwindcss";
 
 @theme {
+
+  /* ========= color start here ========== */
+  --color-primary: #141778;
+  /* ========= color end here ========== */
+
+  /* ========= linear gradient color start here ========== */
+  --error-btn-linearbg: 110deg, #5F5FFF 17.83%, #4600B1 90.11%;
+  --nav-hover-linearbg: 67deg, #FF357D -3.61%, #FF6F33 86.04%;
+  /* ========= linear gradient color end here ========== */
+
+  /* ========= font family start here ========== */
   --font-montserrat: "Montserrat", sans-serif; 
   --font-lato: "Lato", sans-serif; 
+  /* ========= font family end here ========== */
+
+  /* ========= responsive screens start here ========== */
+  --breakpoint-*: initial;
+  --breakpoint-xs: 400px;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --breakpoint-2xl: 1400px;
+  --breakpoint-3xl: 1600px;
+  --breakpoint-4xl: 1760px;
+  --breakpoint-5xl: 1920px;
+  /* ========= responsive screens end here ========== */
+}
+
+.container{
+  max-width: 1106px;
+  margin: 0 auto;
+}
+@media (max-width: 767.99px) {
+  .container{
+    padding: 0 16px;
+  }
+}
+@media (min-width: 768px ) and (max-width: 1153.99px) {
+  .container{
+    padding: 0 24px;
+  }
+}
+@media (min-width: 1154px ) {
+  .container{
+    padding: 0 0;
+    
+  }
 }
