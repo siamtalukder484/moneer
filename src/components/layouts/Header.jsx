@@ -12,7 +12,9 @@ const Header = () => {
       <div className="container">
         <div className='flex justify-between items-center'>
             <div>
+              <Link to='/'>
                 <Image source={logo} alt='logo' />
+              </Link>
             </div>
             <div className='flex gap-x-9 items-center'>
                 <ul className='flex gap-x-[55px]'>

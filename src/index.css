@@ -4,11 +4,15 @@
 
   /* ========= color start here ========== */
   --color-primary: #141778;
+  --color-secondary :#FF5851;
+  --color-orange : #F7931A;
+  --color-gray_1 : #AEADAD;
   /* ========= color end here ========== */
 
   /* ========= linear gradient color start here ========== */
   --error-btn-linearbg: 110deg, #5F5FFF 17.83%, #4600B1 90.11%;
   --nav-hover-linearbg: 67deg, #FF357D -3.61%, #FF6F33 86.04%;
+  --footer-linearbg: 286deg, #2A2AFF -70.7%, #550096 78.49%;
   /* ========= linear gradient color end here ========== */
 
   /* ========= font family start here ========== */
