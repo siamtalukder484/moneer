@@ -8,7 +8,7 @@ import { menuData } from '../../dummyData/menuData';
 
 const Header = () => {
   return (
-    <header className='bg-primary py-4'>
+    <header className='bg-primary py-4 absolute w-full top-0 left-0 z-50'>
       <div className="container">
         <div className='flex justify-between items-center'>
             <div>
